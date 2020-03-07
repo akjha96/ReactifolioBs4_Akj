@@ -41,37 +41,37 @@ const Skills = () => {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   <span className="p-2">
-                    <Image src={L_HTML5} rounded className="image-style m-1"></Image> HTML5
+                    <Image src={L_HTML5} alt="HTML 5" rounded className="image-style m-1"></Image> HTML5
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_CSS3} rounded className="image-style m-1"></Image> CSS3
+                    <Image src={L_CSS3} alt="CSS 3" rounded className="image-style m-1"></Image> CSS3
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_JAVASCRIPT} rounded className="image-style m-1"></Image> JavaScript
+                    <Image src={L_JAVASCRIPT} alt="JavaScript" rounded className="image-style m-1"></Image> JavaScript
                   </span>
                   <span className="p-2">
-                    <Image src={L_SASS} rounded className="image-style m-1"></Image> Sass
-                  </span>
-
-                  <span className="p-2">
-                    <Image src={L_BOOTSTRAP4} rounded className="image-style m-1"></Image> Bootstrap 4
+                    <Image src={L_SASS} alt="Sass" rounded className="image-style m-1"></Image> Sass
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_REACT} rounded className="image-style m-1"></Image> React
-                  </span>
-                  <span className="p-2">
-                    <Image src={L_REDUX} rounded className="image-style m-1"></Image> Redux
+                    <Image src={L_BOOTSTRAP4} alt="Bootstrap 4" rounded className="image-style m-1"></Image> Bootstrap 4
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_REACT_ROUTER} rounded className="image-style m-1"></Image> React-Router
+                    <Image src={L_REACT} alt="React" rounded className="image-style m-1"></Image> React
+                  </span>
+                  <span className="p-2">
+                    <Image src={L_REDUX} alt="Redux" rounded className="image-style m-1"></Image> Redux
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_REACT_BOOTSTRAP} rounded className="image-style m-1"></Image> React-Bootstrap
+                    <Image src={L_REACT_ROUTER} alt="React Router" rounded className="image-style m-1"></Image> React-Router
+                  </span>
+
+                  <span className="p-2">
+                    <Image src={L_REACT_BOOTSTRAP} alt="React Bootstrap" rounded className="image-style m-1"></Image> React-Bootstrap
                   </span>
                 </Card.Text>
               </Card.Body>
@@ -86,17 +86,17 @@ const Skills = () => {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   <span className="p-2">
-                    <Image src={L_NODE_JS} rounded className="image-style m-1"></Image> Node.js
+                    <Image src={L_NODE_JS} alt="Node.js" rounded className="image-style m-1"></Image> Node.js
                   </span>
                   <span className="p-2">
-                    <Image src={L_EXPRESS} rounded className="image-style m-1"></Image> Express
+                    <Image src={L_EXPRESS} alt="Express" rounded className="image-style m-1"></Image> Express
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_DJANGO} rounded className="image-style m-1"></Image> Django
+                    <Image src={L_DJANGO} alt="Django" rounded className="image-style m-1"></Image> Django
                   </span>
                   <span className="p-2">
-                    <Image src={L_FLASK} rounded className="image-style m-1"></Image> Flask
+                    <Image src={L_FLASK} alt="Flask" rounded className="image-style m-1"></Image> Flask
                   </span>
                 </Card.Text>
               </Card.Body>
@@ -109,19 +109,19 @@ const Skills = () => {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   <span className="p-2">
-                    <Image src={L_HEROKU} rounded className="image-style m-1"></Image> Heroku
+                    <Image src={L_HEROKU} alt="Heroku" rounded className="image-style m-1"></Image> Heroku
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_DIGITAL_OCEAN} rounded className="image-style m-1"></Image> Digital-Ocean
+                    <Image src={L_DIGITAL_OCEAN} alt="Digital Ocean" rounded className="image-style m-1"></Image> Digital-Ocean
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_GITHUB_PAGES} rounded className="image-style m-1"></Image> GitHub-Pages
+                    <Image src={L_GITHUB_PAGES} alt="GitHub Pages" rounded className="image-style m-1"></Image> GitHub-Pages
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_PYTHONANYWHERE} rounded className="image-style m-1"></Image> PythonAnywhere
+                    <Image src={L_PYTHONANYWHERE} alt="pythonanywhere" rounded className="image-style m-1"></Image> PythonAnywhere
                   </span>
                 </Card.Text>
               </Card.Body>
@@ -136,11 +136,11 @@ const Skills = () => {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   <span className="p-2">
-                    <Image src={L_JAVASCRIPT} rounded className="image-style m-1"></Image> JavaScript
+                    <Image src={L_JAVASCRIPT} alt="JavaScript" rounded className="image-style m-1"></Image> JavaScript
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_PYTHON} rounded className="image-style m-1"></Image> Python
+                    <Image src={L_PYTHON} alt="Python" rounded className="image-style m-1"></Image> Python
                   </span>
                 </Card.Text>
               </Card.Body>
@@ -154,10 +154,10 @@ const Skills = () => {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   <span className="p-2">
-                    <Image src={L_POSTGRESQL} rounded className="image-style m-1"></Image> PostgreSQL
+                    <Image src={L_POSTGRESQL} alt="PostgreSQL" rounded className="image-style m-1"></Image> PostgreSQL
                   </span>
                   <span className="p-2">
-                    <Image src={L_MSSQL} rounded className="image-style m-1"></Image> MS-SQL
+                    <Image src={L_MSSQL} alt="MS-SQL" rounded className="image-style m-1"></Image> MS-SQL
                   </span>
                 </Card.Text>
               </Card.Body>
@@ -170,7 +170,7 @@ const Skills = () => {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   <span className="p-2">
-                    <Image src={L_GIT} rounded className="image-style m-1"></Image> GIT
+                    <Image src={L_GIT} alt="GIT" rounded className="image-style m-1"></Image> GIT
                   </span>
                 </Card.Text>
               </Card.Body>
