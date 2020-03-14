@@ -4,8 +4,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Karla", sans-serif;
-  background-image: url("./assets/img/background/background.webp");
-
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
+  background-image: linear-gradient(-225deg, #22e1ff 0%, #1d8fe1 48%, #625eb1 100%);
   /* Add the blur effect */
 
   /* Full height */

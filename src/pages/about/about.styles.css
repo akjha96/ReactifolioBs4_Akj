@@ -1,7 +1,12 @@
 .about {
-  background-color: #ffffff;
+  background-color: transparent;
+  font-size: 1.1em;
 }
 
 .profile {
   max-width: 18em;
+}
+
+.my-details {
+  background-color: rgba(255, 255, 255, 0.747);
 }

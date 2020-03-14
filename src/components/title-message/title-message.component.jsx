@@ -5,9 +5,8 @@ import styled from "styled-components";
 const MyTitleMessage = styled.h1`
   position: absolute;
   width: 100%;
-  height: 250px;
-  top: 55%;
-  z-index: 5;
+  top: 22rem;
+  z-index: 1;
   margin-top: -125px;
   text-align: center;
 
@@ -36,8 +35,9 @@ const TitleMessage = () => (
   <MyTitleMessage>
     <div className="titleMessage">
       <div className="heading">
-        <div className="main mb-3">
-          Hi! I am <br />
+        <div className="main text-center mb-3">
+          Hi, I am
+          <br />
           <span>
             <strong>Anand Kumar Jha</strong>
           </span>

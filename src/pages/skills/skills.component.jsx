@@ -29,49 +29,67 @@ import "./skills.styles.css";
 
 const Skills = () => {
   return (
-    <div className="pt-5 pb-5">
-      <h1 className="text-center font-details pb-4">Technical Skills</h1>
+    <div className="pt-3 pb-3" id="skills">
+      <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
       <CardDeck>
         <Row className="d-flex justify-content-around">
           {/* Frontend */}
           <Col md={4}>
-            <Card className="focus mt-2">
+            <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Frontend</Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   <span className="p-2">
-                    <Image src={L_HTML5} alt="HTML 5" rounded className="image-style m-1"></Image> HTML5
+                    <a className="text-dark text-decoration-none" href="https://en.wikipedia.org/wiki/HTML5" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_HTML5} alt="HTML 5" rounded className="image-style m-1"></Image> HTML5
+                    </a>
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_CSS3} alt="CSS 3" rounded className="image-style m-1"></Image> CSS3
+                    <a className="text-dark text-decoration-none" href="https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_CSS3} alt="CSS 3" rounded className="image-style m-1"></Image> CSS3
+                    </a>
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_JAVASCRIPT} alt="JavaScript" rounded className="image-style m-1"></Image> JavaScript
+                    <a className="text-dark text-decoration-none" href="https://www.javascript.com/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_JAVASCRIPT} alt="JavaScript" rounded className="image-style m-1"></Image> JavaScript
+                    </a>
                   </span>
                   <span className="p-2">
-                    <Image src={L_SASS} alt="Sass" rounded className="image-style m-1"></Image> Sass
-                  </span>
-
-                  <span className="p-2">
-                    <Image src={L_BOOTSTRAP4} alt="Bootstrap 4" rounded className="image-style m-1"></Image> Bootstrap 4
-                  </span>
-
-                  <span className="p-2">
-                    <Image src={L_REACT} alt="React" rounded className="image-style m-1"></Image> React
-                  </span>
-                  <span className="p-2">
-                    <Image src={L_REDUX} alt="Redux" rounded className="image-style m-1"></Image> Redux
+                    <a className="text-dark text-decoration-none" href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_SASS} alt="Sass" rounded className="image-style m-1"></Image> Sass
+                    </a>
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_REACT_ROUTER} alt="React Router" rounded className="image-style m-1"></Image> React-Router
+                    <a className="text-dark text-decoration-none" href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_BOOTSTRAP4} alt="Bootstrap 4" rounded className="image-style m-1"></Image> Bootstrap 4
+                    </a>
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_REACT_BOOTSTRAP} alt="React Bootstrap" rounded className="image-style m-1"></Image> React-Bootstrap
+                    <a className="text-dark text-decoration-none" href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_REACT} alt="React" rounded className="image-style m-1"></Image> React
+                    </a>
+                  </span>
+                  <span className="p-2">
+                    <a className="text-dark text-decoration-none" href="https://redux.js.org/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_REDUX} alt="Redux" rounded className="image-style m-1"></Image> Redux
+                    </a>
+                  </span>
+
+                  <span className="p-2">
+                    <a className="text-dark text-decoration-none" href="https://reacttraining.com/react-router/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_REACT_ROUTER} alt="React Router" rounded className="image-style m-1"></Image> React-Router
+                    </a>
+                  </span>
+
+                  <span className="p-2">
+                    <a className="text-dark text-decoration-none" href="https://react-bootstrap.github.io/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_REACT_BOOTSTRAP} alt="React Bootstrap" rounded className="image-style m-1"></Image> React-Bootstrap
+                    </a>
                   </span>
                 </Card.Text>
               </Card.Body>
@@ -80,48 +98,64 @@ const Skills = () => {
 
           {/* Backend */}
           <Col md={4}>
-            <Card className="focus mt-2">
+            <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Backend</Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   <span className="p-2">
-                    <Image src={L_NODE_JS} alt="Node.js" rounded className="image-style m-1"></Image> Node.js
+                    <a className="text-dark text-decoration-none" href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_NODE_JS} alt="Node.js" rounded className="image-style m-1"></Image> Node.js
+                    </a>
                   </span>
                   <span className="p-2">
-                    <Image src={L_EXPRESS} alt="Express" rounded className="image-style m-1"></Image> Express
+                    <a className="text-dark text-decoration-none" href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_EXPRESS} alt="Express" rounded className="image-style m-1"></Image> Express
+                    </a>
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_DJANGO} alt="Django" rounded className="image-style m-1"></Image> Django
+                    <a className="text-dark text-decoration-none" href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_DJANGO} alt="Django" rounded className="image-style m-1"></Image> Django
+                    </a>
                   </span>
                   <span className="p-2">
-                    <Image src={L_FLASK} alt="Flask" rounded className="image-style m-1"></Image> Flask
+                    <a className="text-dark text-decoration-none" href="https://flask.palletsprojects.com/en/1.1.x/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_FLASK} alt="Flask" rounded className="image-style m-1"></Image> Flask
+                    </a>
                   </span>
                 </Card.Text>
               </Card.Body>
             </Card>
 
             {/* Hosting Platforms */}
-            <Card className="focus mt-2">
+            <Card className="focus mt-2 mb-2 ">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Hosting Platforms</Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   <span className="p-2">
-                    <Image src={L_HEROKU} alt="Heroku" rounded className="image-style m-1"></Image> Heroku
+                    <a className="text-dark text-decoration-none" href="https://www.heroku.com/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_HEROKU} alt="Heroku" rounded className="image-style m-1"></Image> Heroku
+                    </a>
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_DIGITAL_OCEAN} alt="Digital Ocean" rounded className="image-style m-1"></Image> Digital-Ocean
+                    <a className="text-dark text-decoration-none" href="https://www.digitalocean.com/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_DIGITAL_OCEAN} alt="Digital Ocean" rounded className="image-style m-1"></Image> Digital-Ocean
+                    </a>
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_GITHUB_PAGES} alt="GitHub Pages" rounded className="image-style m-1"></Image> GitHub-Pages
+                    <a className="text-dark text-decoration-none" href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_GITHUB_PAGES} alt="GitHub Pages" rounded className="image-style m-1"></Image> GitHub-Pages
+                    </a>
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_PYTHONANYWHERE} alt="pythonanywhere" rounded className="image-style m-1"></Image> PythonAnywhere
+                    <a className="text-dark text-decoration-none" href="https://www.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_PYTHONANYWHERE} alt="pythonanywhere" rounded className="image-style m-1"></Image> PythonAnywhere
+                    </a>
                   </span>
                 </Card.Text>
               </Card.Body>
@@ -130,17 +164,21 @@ const Skills = () => {
 
           {/* Programming Languages */}
           <Col md={4}>
-            <Card className="focus mt-2">
+            <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Programming Languages</Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   <span className="p-2">
-                    <Image src={L_JAVASCRIPT} alt="JavaScript" rounded className="image-style m-1"></Image> JavaScript
+                    <a className="text-dark text-decoration-none" href="https://www.javascript.com/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_JAVASCRIPT} alt="JavaScript" rounded className="image-style m-1"></Image> JavaScript
+                    </a>
                   </span>
 
                   <span className="p-2">
-                    <Image src={L_PYTHON} alt="Python" rounded className="image-style m-1"></Image> Python
+                    <a className="text-dark text-decoration-none" href="https://www.python.org/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_PYTHON} alt="Python" rounded className="image-style m-1"></Image> Python
+                    </a>
                   </span>
                 </Card.Text>
               </Card.Body>
@@ -148,29 +186,35 @@ const Skills = () => {
 
             {/* Database */}
 
-            <Card className="focus mt-2">
+            <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Database</Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   <span className="p-2">
-                    <Image src={L_POSTGRESQL} alt="PostgreSQL" rounded className="image-style m-1"></Image> PostgreSQL
+                    <a className="text-dark text-decoration-none" href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_POSTGRESQL} alt="PostgreSQL" rounded className="image-style m-1"></Image> PostgreSQL
+                    </a>
                   </span>
                   <span className="p-2">
-                    <Image src={L_MSSQL} alt="MS-SQL" rounded className="image-style m-1"></Image> MS-SQL
+                    <a className="text-dark text-decoration-none" href="https://www.microsoft.com/en-us/sql-server/sql-server-2019" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_MSSQL} alt="MS-SQL" rounded className="image-style m-1"></Image> MS-SQL
+                    </a>
                   </span>
                 </Card.Text>
               </Card.Body>
             </Card>
             {/* Version Control */}
 
-            <Card className="focus mt-2">
+            <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Version Control</Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   <span className="p-2">
-                    <Image src={L_GIT} alt="GIT" rounded className="image-style m-1"></Image> GIT
+                    <a className="text-dark text-decoration-none" href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">
+                      <Image src={L_GIT} alt="GIT" rounded className="image-style m-1"></Image> GIT
+                    </a>
                   </span>
                 </Card.Text>
               </Card.Body>

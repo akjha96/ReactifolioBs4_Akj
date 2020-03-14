@@ -1,0 +1,11 @@
+.img-resize {
+  width: 10em;
+}
+
+.style {
+  font-size: 20px;
+}
+
+.jumbo-style {
+  background-image: linear-gradient(-225deg, #2cd8d5 0%, #6b8dd6 48%, #8e37d7 100%);
+}

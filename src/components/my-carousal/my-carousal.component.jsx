@@ -9,8 +9,8 @@ import "./my-carousal.styles.css";
 class MyCarousal extends Component {
   render() {
     return (
-      <div>
-        <Carousel fade={true} controls={false} indicators={true} interval={2500} pauseOnHover={false}>
+      <div id="home">
+        <Carousel fade={true} controls={false} indicators interval={2500} pauseOnHover={false}>
           <Carousel.Item>
             <img className="d-block w-100 custom-img" src={Slide2} alt="First slide" />
           </Carousel.Item>

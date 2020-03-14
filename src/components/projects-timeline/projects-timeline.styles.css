@@ -1,0 +1,21 @@
+.accordian-main {
+  cursor: pointer;
+  display: inline-block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 14px;
+  background-color: rebeccapurple;
+  border: none;
+  border-radius: 4px;
+
+  padding: 10px;
+  color: #fff;
+}
+
+.list-styles {
+  list-style-type: circle;
+}
+
+.image-style1 {
+  width: 3em;
+}
