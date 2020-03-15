@@ -8,7 +8,6 @@ import Container from "react-bootstrap/Container";
 import TimeLine from "./components/projects-timeline/projects-timeline.component";
 import Experience from "./pages/experience/experience.component";
 import Fade from "react-reveal/Fade";
-import Flip from "react-reveal/Flip";
 import ContactForm from "./pages/contact-form/contact-form.component";
 import { Parallax } from "react-parallax";
 import Particles from "react-particles-js";
@@ -148,11 +147,11 @@ class App extends Component {
           </Parallax>
         </div>
         <Container className="container-box rounded">
-          <Flip right duration={700}>
+          <Fade right duration={700}>
             <hr />
 
             <Skills />
-          </Flip>
+          </Fade>
         </Container>
         <div>
           <Container className="container-box rounded">
