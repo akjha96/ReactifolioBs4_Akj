@@ -22,13 +22,13 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Anand Kumar Jha</strong>
-                <br />A passionate programmer and a Coach, born and brought up in India. I am a Full Stack Web Developer with React.js, Express.js, Node.js, and PostgreSQL as my main stack.
+                <br />A passionate programmer and a Coach, born and brought up in India. I am a Full Stack Web Developer with React.js, Django, Express.js, Node.js, and PostgreSQL as my tech stack.
                 <br />
                 In 2019, I successfully completed my Engineering with specialization in 'Electronics and Telecommunication'.
                 <br />
                 Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
                 <br />
-                Along with that, I also help people as a COACH on their journey of becoming a professional programmer. I love learning new about technologies, what problems are they solving and How can I use them to build better and scalable products.
+                Along with that, I also help people as a COACH on their journey of becoming a professional programmer. I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
