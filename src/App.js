@@ -21,26 +21,26 @@ const particlesOptions = {
       value: 80,
       density: {
         enable: true,
-        value_area: 1900
-      }
+        value_area: 1900,
+      },
     },
     color: {
-      value: "#ffffff"
+      value: "#ffffff",
     },
     shape: {
       type: "polygon",
       stroke: {
         width: 0,
-        color: "#000000"
+        color: "#000000",
       },
       polygon: {
-        nb_sides: 5
+        nb_sides: 5,
       },
       image: {
         src: "img/github.svg",
         width: 100,
-        height: 100
-      }
+        height: 100,
+      },
     },
     opacity: {
       value: 0.5,
@@ -49,8 +49,8 @@ const particlesOptions = {
         enable: false,
         speed: 1,
         opacity_min: 0.1,
-        sync: false
-      }
+        sync: false,
+      },
     },
     size: {
       value: 3,
@@ -59,15 +59,15 @@ const particlesOptions = {
         enable: false,
         speed: 40,
         size_min: 0.1,
-        sync: false
-      }
+        sync: false,
+      },
     },
     line_linked: {
       enable: true,
       distance: 150,
       color: "#ffffff",
       opacity: 0.4,
-      width: 1
+      width: 1,
     },
     move: {
       enable: true,
@@ -80,50 +80,50 @@ const particlesOptions = {
       attract: {
         enable: false,
         rotateX: 600,
-        rotateY: 1200
-      }
-    }
+        rotateY: 1200,
+      },
+    },
   },
   interactivity: {
     detect_on: "canvas",
     events: {
       onhover: {
         enable: true,
-        mode: "repulse"
+        mode: "repulse",
       },
       onclick: {
         enable: true,
-        mode: "push"
+        mode: "push",
       },
-      resize: true
+      resize: true,
     },
     modes: {
       grab: {
         distance: 400,
         line_linked: {
-          opacity: 1
-        }
+          opacity: 1,
+        },
       },
       bubble: {
         distance: 400,
         size: 40,
         duration: 2,
         opacity: 8,
-        speed: 3
+        speed: 3,
       },
       repulse: {
         distance: 200,
-        duration: 0.4
+        duration: 0.4,
       },
       push: {
-        particles_nb: 4
+        particles_nb: 4,
       },
       remove: {
-        particles_nb: 2
-      }
-    }
+        particles_nb: 2,
+      },
+    },
   },
-  retina_detect: true
+  retina_detect: true,
 };
 
 class App extends Component {
@@ -139,7 +139,7 @@ class App extends Component {
           <Parallax blur={{ min: -30, max: 30 }} bgImage={require("./assets/img/parallex/background.webp")} bgImageAlt="" strength={-200}>
             <div>
               <Container className="container-box rounded">
-                <Fade left duration={700}>
+                <Fade duration={700}>
                   <About />
                 </Fade>
               </Container>
@@ -147,7 +147,7 @@ class App extends Component {
           </Parallax>
         </div>
         <Container className="container-box rounded">
-          <Fade right duration={700}>
+          <Fade duration={700}>
             <hr />
 
             <Skills />
@@ -155,7 +155,7 @@ class App extends Component {
         </Container>
         <div>
           <Container className="container-box rounded">
-            <Fade left duration={500}>
+            <Fade duration={500}>
               <hr />
 
               <Experience />
@@ -163,13 +163,13 @@ class App extends Component {
           </Container>
         </div>
         <Container className="container-box rounded">
-          <Fade right duration={700}>
+          <Fade duration={700}>
             <hr />
             <TimeLine />
           </Fade>
         </Container>
         <Container className="container-box rounded">
-          <Fade left duration={700}>
+          <Fade duration={700}>
             <hr />
             <ContactForm />
           </Fade>
