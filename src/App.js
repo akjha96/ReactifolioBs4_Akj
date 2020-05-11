@@ -10,7 +10,7 @@ import Experience from "./pages/experience/experience.component";
 import Fade from "react-reveal/Fade";
 import ContactForm from "./pages/contact-form/contact-form.component";
 import { Parallax } from "react-parallax";
-import Particles from "react-particles-js";
+// import Particles from "react-particles-js";
 import FooterPanel from "./components/footer/footer.component";
 
 import "./App.css";
