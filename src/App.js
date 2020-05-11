@@ -7,7 +7,7 @@ import Skills from "./pages/skills/skills.component";
 import Container from "react-bootstrap/Container";
 import TimeLine from "./components/projects-timeline/projects-timeline.component";
 import Experience from "./pages/experience/experience.component";
-import Fade from "react-reveal/Fade";
+
 import ContactForm from "./pages/contact-form/contact-form.component";
 import { Parallax } from "react-parallax";
 import Particles from "react-particles-js";
@@ -139,40 +139,30 @@ class App extends Component {
           <Parallax blur={{ min: -30, max: 30 }} bgImage={require("./assets/img/parallex/background.webp")} bgImageAlt="" strength={-200}>
             <div>
               <Container className="container-box rounded">
-                <Fade duration={700}>
-                  <About />
-                </Fade>
+                <About />
               </Container>
             </div>
           </Parallax>
         </div>
         <Container className="container-box rounded">
-          <Fade duration={700}>
-            <hr />
+          <hr />
 
-            <Skills />
-          </Fade>
+          <Skills />
         </Container>
         <div>
           <Container className="container-box rounded">
-            <Fade duration={500}>
-              <hr />
+            <hr />
 
-              <Experience />
-            </Fade>
+            <Experience />
           </Container>
         </div>
         <Container className="container-box rounded">
-          <Fade duration={700}>
-            <hr />
-            <TimeLine />
-          </Fade>
+          <hr />
+          <TimeLine />
         </Container>
         <Container className="container-box rounded">
-          <Fade duration={700}>
-            <hr />
-            <ContactForm />
-          </Fade>
+          <hr />
+          <ContactForm />
         </Container>
 
         <hr />
