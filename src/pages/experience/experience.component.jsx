@@ -19,15 +19,15 @@ const Experience = () => {
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
-                  <Card.Title className="text-center">Associate Software Engineer.</Card.Title>
+                  <Card.Title className="text-center">Associate Software Engineer</Card.Title>
                 </div>
                 <div>
                   <Card.Text className="text-center style">
-                    <strong>Domain:</strong> Full Stack Developer
+                    <strong className="body-title-style ">Full Stack Developer</strong>
                     <br />
-                    <strong>Role:</strong> Production Support
+                    <strong>Role:</strong> Developer & Production Support
                     <br />
-                    <strong>Description:</strong> Solving real-time problems occuring in production related to UI, Backend, and Databases.
+                    <strong>Description:</strong> <strong>Developed & enhanced multiple features</strong> with full customizability option across web application. Debugging existing code to solve problems. Also worked as <strong>Production Support</strong> providing system maintenance, performing CRUD operations on databases along with extensive support during Critical Care Period.
                     <br />
                     <strong>Technology:</strong> DOTNET, C# and MS-SQL
                     <br />

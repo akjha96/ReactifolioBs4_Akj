@@ -22,7 +22,7 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Anand Kumar Jha</strong>
-                <br />A passionate programmer and a Coach, born and brought up in India. I am a Full Stack Web Developer with React.js, Django, Express.js, Node.js, and PostgreSQL as my tech stack.
+                <br />A passionate programmer and a Coach, born and brought up in India. I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech stack.
                 <br />
                 In 2019, I successfully completed my Engineering with specialization in 'Electronics and Telecommunication'.
                 <br />
@@ -39,7 +39,7 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://drive.google.com/file/d/148UcaqxF0pjzIRi22zRYywO7sMJ5y64b/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1MOzv1uAOadz1H8F8apv50F9RHTeTZHiu/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume
                       </Button>

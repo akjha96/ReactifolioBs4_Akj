@@ -23,7 +23,7 @@ const ScrollDown = () => {
   return (
     <MyScroll>
       <div className="turn">
-        <span>></span>
+        <span> &gt; </span>
       </div>
     </MyScroll>
   );
