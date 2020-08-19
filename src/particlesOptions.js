@@ -1,110 +1,51 @@
 export const particlesOptions = {
   particles: {
     number: {
-      value: 20,
+      value: 160,
       density: {
-        enable: true,
-        value_area: 1200,
-      },
-    },
-    color: {
-      value: "#ffffff",
-    },
-    shape: {
-      type: "polygon",
-      stroke: {
-        width: 0,
-        color: "#000000",
-      },
-      polygon: {
-        nb_sides: 5,
-      },
-      image: {
-        src: "img/github.svg",
-        width: 100,
-        height: 100,
-      },
-    },
-    opacity: {
-      value: 0.5,
-      random: false,
-      anim: {
         enable: false,
-        speed: 1,
-        opacity_min: 0.1,
-        sync: false,
       },
     },
     size: {
       value: 3,
       random: true,
       anim: {
-        enable: false,
-        speed: 40,
-        size_min: 0.1,
-        sync: false,
+        speed: 4,
+        size_min: 0.3,
       },
     },
     line_linked: {
-      enable: true,
-      distance: 150,
-      color: "#ffffff",
-      opacity: 0.4,
-      width: 1,
+      enable: false,
     },
     move: {
-      enable: true,
-      speed: 6,
-      direction: "none",
-      random: false,
-      straight: false,
+      random: true,
+      speed: 1,
+      direction: "top",
       out_mode: "out",
-      bounce: false,
-      attract: {
-        enable: false,
-        rotateX: 600,
-        rotateY: 1200,
-      },
     },
   },
   interactivity: {
-    detect_on: "canvas",
     events: {
       onhover: {
         enable: true,
-        mode: "repulse",
+        mode: "bubble",
       },
       onclick: {
         enable: true,
-        mode: "push",
+        mode: "repulse",
       },
-      resize: true,
     },
     modes: {
-      grab: {
-        distance: 400,
-        line_linked: {
-          opacity: 1,
-        },
-      },
       bubble: {
-        distance: 400,
-        size: 40,
+        distance: 250,
         duration: 2,
-        opacity: 8,
-        speed: 3,
+        size: 0,
+        opacity: 0,
       },
       repulse: {
-        distance: 200,
-        duration: 0.4,
-      },
-      push: {
-        particles_nb: 4,
-      },
-      remove: {
-        particles_nb: 2,
+        distance: 400,
+        duration: 4,
       },
     },
   },
-  retina_detect: true,
 };
