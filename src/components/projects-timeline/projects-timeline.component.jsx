@@ -33,18 +33,30 @@ const TimeLine = () => {
       <Timeline>
         <Events>
           {/* Project: Get GitHub Info */}
-          <ImageEvent date="19/07/2020" className="text-center" text="Get GitHub Info" src={L_GetGitHubInfo} alt="Get GitHub Info">
+          <ImageEvent
+            date="19/07/2020"
+            className="text-center"
+            text="Get GitHub Info"
+            src={L_GetGitHubInfo}
+            alt="Get GitHub Info"
+          >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
                   <Card>
-                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
                       PROJECT DETAILS
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that searches people on GitHub with non-private account and see all their details using GitHub API
+                        <strong>Description:</strong> An app that searches
+                        people on GitHub with non-private account and see all
+                        their details using GitHub API
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -56,22 +68,46 @@ const TimeLine = () => {
                         <ul>
                           <li>
                             <span className="p-2">
-                              <Image src={L_HTML5} alt="HTML 5" rounded className="image-style m-1"></Image> HTML5
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_CSS3} alt="CSS 3" rounded className="image-style m-1"></Image> CSS3
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_REACT} alt="React" rounded className="image-style1 m-1"></Image> React
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_GIT} alt="Github API" rounded className="image-style1 m-1"></Image> GitHub API
+                              <Image
+                                src={L_GIT}
+                                alt="Github API"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              GitHub API
                             </span>
                           </li>
                         </ul>
@@ -81,13 +117,22 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://akjha96.github.io/getGithubInfo/" target="_blank">
+                <UrlButton
+                  href="https://akjha96.github.io/getGithubInfo/"
+                  target="_blank"
+                >
                   SEE LIVE
                 </UrlButton>
-                <UrlButton href="https://github.com/akjha96/getGithubInfo" target="_blank">
+                <UrlButton
+                  href="https://github.com/akjha96/getGithubInfo"
+                  target="_blank"
+                >
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton href="https://www.youtube.com/watch?v=K3h95l2YxmY&feature=youtu.be" target="_blank">
+                <UrlButton
+                  href="https://www.youtube.com/watch?v=K3h95l2YxmY&feature=youtu.be"
+                  target="_blank"
+                >
                   WATCH VIDEO
                 </UrlButton>
               </div>
@@ -95,18 +140,29 @@ const TimeLine = () => {
           </ImageEvent>
 
           {/* Project: Smart Brain */}
-          <ImageEvent date="21/01/2020" className="text-center" text="Smart Brain Face Detect app" src={L_SmartBrain} alt="Smart Brain Face Detect">
+          <ImageEvent
+            date="21/01/2020"
+            className="text-center"
+            text="Smart Brain Face Detect app"
+            src={L_SmartBrain}
+            alt="Smart Brain Face Detect"
+          >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
                   <Card>
-                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
                       PROJECT DETAILS
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that detects face in a picture.
+                        <strong>Description:</strong> An app that detects face
+                        in a picture.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -119,22 +175,46 @@ const TimeLine = () => {
                         <ul>
                           <li>
                             <span className="p-2">
-                              <Image src={L_REACT} alt="React" rounded className="image-style1 m-1"></Image> React
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_NODE_JS} alt="Node.js" rounded className="image-style1 m-1"></Image> Node.js
+                              <Image
+                                src={L_NODE_JS}
+                                alt="Node.js"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Node.js
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_EXPRESS} alt="Express" rounded className="image-style1 m-1"></Image> Express
+                              <Image
+                                src={L_EXPRESS}
+                                alt="Express"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Express
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_POSTGRESQL} alt="PostgreSQL" rounded className="image-style1 m-1"></Image> PostgreSQL
+                              <Image
+                                src={L_POSTGRESQL}
+                                alt="PostgreSQL"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              PostgreSQL
                             </span>
                           </li>
                         </ul>
@@ -143,7 +223,8 @@ const TimeLine = () => {
                           <strong>SignUp/ Signin:</strong>
                           <br />
                           <br />
-                          You can <strong>register</strong> as new user or <strong>log in</strong> using the demo account below.
+                          You can <strong>register</strong> as new user or{" "}
+                          <strong>log in</strong> using the demo account below.
                           <br />
                           <br />
                           <strong>Demo Account Details:</strong>
@@ -158,13 +239,22 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://smart-face-detect-app.herokuapp.com/" target="_blank">
+                <UrlButton
+                  href="https://smart-face-detect-app.herokuapp.com/"
+                  target="_blank"
+                >
                   SEE LIVE
                 </UrlButton>
-                <UrlButton href="https://github.com/akjha96/Smart_Brain" target="_blank">
+                <UrlButton
+                  href="https://github.com/akjha96/Smart_Brain"
+                  target="_blank"
+                >
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton href="https://www.youtube.com/watch?v=ZZYSpi_blL0" target="_blank">
+                <UrlButton
+                  href="https://www.youtube.com/watch?v=ZZYSpi_blL0"
+                  target="_blank"
+                >
                   WATCH VIDEO
                 </UrlButton>
               </div>
@@ -173,18 +263,29 @@ const TimeLine = () => {
 
           {/* Project: RoboFriends */}
 
-          <ImageEvent date="14/01/2020" className="text-center" text="RoboFriends" src={L_RoboFriends} alt="Robo Friends">
+          <ImageEvent
+            date="14/01/2020"
+            className="text-center"
+            text="RoboFriends"
+            src={L_RoboFriends}
+            alt="Robo Friends"
+          >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
                   <Card>
-                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
                       PROJECT DETAILS
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that allows to search through robots fetched in real-time with users.
+                        <strong>Description:</strong> An app that allows to
+                        search through robots fetched in real-time with users.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -197,27 +298,57 @@ const TimeLine = () => {
                         <ul>
                           <li>
                             <span className="p-2">
-                              <Image src={L_REACT} alt="React" rounded className="image-style1 m-1"></Image> React
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_REDUX} alt="Redux" rounded className="image-style m-1"></Image> Redux
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_NODE_JS} alt="Node.js" rounded className="image-style1 m-1"></Image> Node.js
+                              <Image
+                                src={L_BOOTSTRAP4}
+                                alt="Bootstrap 4"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Bootstrap 4
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_EXPRESS} alt="Express" rounded className="image-style1 m-1"></Image> Express
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_POSTGRESQL} alt="PostgreSQL" rounded className="image-style1 m-1"></Image> PostgreSQL
+                              <Image
+                                src={L_REDUX}
+                                alt="Redux"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Redux
                             </span>
                           </li>
                         </ul>
@@ -227,10 +358,16 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://akjha96.github.io/RoboFriends/" target="_blank">
+                <UrlButton
+                  href="https://akjha96.github.io/RoboFriends/"
+                  target="_blank"
+                >
                   SEE LIVE
                 </UrlButton>
-                <UrlButton href="https://github.com/akjha96/RoboFriends" target="_blank">
+                <UrlButton
+                  href="https://github.com/akjha96/RoboFriends"
+                  target="_blank"
+                >
                   SOURCE CODE
                 </UrlButton>
               </div>
@@ -239,18 +376,29 @@ const TimeLine = () => {
 
           {/* Project: Product_Hunt_Clone */}
 
-          <ImageEvent date="15/12/2019" className="text-center" text="Product Hunt Clone" src={L_ProductHuntClone} alt="Product Hunt Clone">
+          <ImageEvent
+            date="15/12/2019"
+            className="text-center"
+            text="Product Hunt Clone"
+            src={L_ProductHuntClone}
+            alt="Product Hunt Clone"
+          >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
                   <Card>
-                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
                       PROJECT DETAILS
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This website is a clone of Product Hunt built using Django.
+                        <strong>Description:</strong> This website is a clone of
+                        Product Hunt built using Django.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -266,27 +414,57 @@ const TimeLine = () => {
                         <ul>
                           <li>
                             <span className="p-2">
-                              <Image src={L_HTML5} alt="HTML 5" rounded className="image-style m-1"></Image> HTML5
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_CSS3} alt="CSS 3" rounded className="image-style m-1"></Image> CSS3
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_BOOTSTRAP4} alt="Bootstrap 4" rounded className="image-style m-1"></Image> Bootstrap 4
+                              <Image
+                                src={L_BOOTSTRAP4}
+                                alt="Bootstrap 4"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Bootstrap 4
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_DJANGO} alt="Django" rounded className="image-style m-1"></Image> Django
+                              <Image
+                                src={L_DJANGO}
+                                alt="Django"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Django
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_POSTGRESQL} alt="PostgreSQL" rounded className="image-style1 m-1"></Image> PostgreSQL
+                              <Image
+                                src={L_POSTGRESQL}
+                                alt="PostgreSQL"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              PostgreSQL
                             </span>
                           </li>
                         </ul>
@@ -296,7 +474,10 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://github.com/akjha96/product_hunt_clone" target="_blank">
+                <UrlButton
+                  href="https://github.com/akjha96/product_hunt_clone"
+                  target="_blank"
+                >
                   SOURCE CODE
                 </UrlButton>
               </div>
@@ -304,25 +485,38 @@ const TimeLine = () => {
           </ImageEvent>
 
           {/* Project: Portfolio using Django */}
-          <ImageEvent date="07/12/2019" className="text-center" text="Portfolio using Django" src={L_PortfolioUsingDjango} alt="Portfolio using Django">
+          <ImageEvent
+            date="07/12/2019"
+            className="text-center"
+            text="Portfolio using Django"
+            src={L_PortfolioUsingDjango}
+            alt="Portfolio using Django"
+          >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
                   <Card>
-                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
                       PROJECT DETAILS
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is my first portfolio website built using Django.
+                        <strong>Description:</strong> This is my first portfolio
+                        website built using Django.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
                           <li>Send emails</li>
                           <li>View my projects</li>
                           <li>Write a blog</li>
-                          <li>Hosted using Digital ocean under www.akjfun.com</li>
+                          <li>
+                            Hosted using Digital ocean under www.akjfun.com
+                          </li>
                           <li>Fully funtional Administration panel</li>
                         </ul>
                         <hr />
@@ -330,32 +524,68 @@ const TimeLine = () => {
                         <ul>
                           <li>
                             <span className="p-2">
-                              <Image src={L_HTML5} alt="HTML 5" rounded className="image-style m-1"></Image> HTML5
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_CSS3} alt="CSS 3" rounded className="image-style m-1"></Image> CSS3
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_BOOTSTRAP4} alt="Bootstrap 4" rounded className="image-style m-1"></Image> Bootstrap 4
+                              <Image
+                                src={L_BOOTSTRAP4}
+                                alt="Bootstrap 4"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Bootstrap 4
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_DJANGO} alt="Django" rounded className="image-style m-1"></Image> Django
+                              <Image
+                                src={L_DJANGO}
+                                alt="Django"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Django
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_POSTGRESQL} alt="PostgreSQL" rounded className="image-style1 m-1"></Image> PostgreSQL
+                              <Image
+                                src={L_POSTGRESQL}
+                                alt="PostgreSQL"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              PostgreSQL
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_DIGITAL_OCEAN} alt="Digital Ocean" rounded className="image-style m-1"></Image> Digital-Ocean
+                              <Image
+                                src={L_DIGITAL_OCEAN}
+                                alt="Digital Ocean"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Digital-Ocean
                             </span>
                           </li>
                         </ul>
@@ -364,9 +594,11 @@ const TimeLine = () => {
                           <strong>View Demo Video:</strong>
                           <br />
                           <br />
-                          If you are reading this, that means I have updated my Portfolio website to recent one.
+                          If you are reading this, that means I have updated my
+                          Portfolio website to recent one.
                           <br />
-                          You can still see a video of my old portfolio by clicking on the button below.
+                          You can still see a video of my old portfolio by
+                          clicking on the button below.
                           <br />
                           <br />
                         </em>
