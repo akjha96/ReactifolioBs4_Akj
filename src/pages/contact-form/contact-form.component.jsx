@@ -26,13 +26,7 @@ const ContactForm = () => {
                 </Button>
               </a>
             </div>
-            <div className="m-2">
-              <a href="https://www.facebook.com/akjha132" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-primary" title="Say hello on FB">
-                  <i className="fab fa-facebook-square"></i> FaceBook
-                </Button>
-              </a>
-            </div>
+            
             <div className="m-2">
               <a href="https://github.com/akjha96" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-dark" title="My other projects">
@@ -41,9 +35,23 @@ const ContactForm = () => {
               </a>
             </div>
             <div className="m-2">
+              <a href="https://www.youtube.com/user/MrAkjha96/" target="_blank" rel="noopener noreferrer">
+                <Button id="youtube-btn" variant="outline-info" title="Lets code together!">
+                <i class="fab fa-youtube"></i> Youtube
+                </Button>
+              </a>
+            </div>
+            <div className="m-2">
               <a href="https://twitter.com/akjha96" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-info" title="Tweets are welcomed!">
                   <i className="fab fa-twitter"></i> Twitter
+                </Button>
+              </a>
+            </div>
+            <div className="m-2">
+              <a href="https://www.facebook.com/akjha132" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-primary" title="Say hello on FB">
+                  <i className="fab fa-facebook-square"></i> FaceBook
                 </Button>
               </a>
             </div>

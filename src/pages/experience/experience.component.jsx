@@ -25,13 +25,25 @@ const Experience = () => {
                   <Card.Text className="text-center style">
                     <strong className="body-title-style ">Full Stack Developer</strong>
                     <br />
-                    <strong>Role:</strong> Developer & Production Support
-                    <br />
-                    <strong>Description:</strong> <strong>Developed & enhanced multiple features</strong> with full customizability option across web application. Debugging existing code to solve problems. Also worked as <strong>Production Support</strong> providing system maintenance, performing CRUD operations on databases along with extensive support during Critical Care Period.
-                    <br />
-                    <strong>Technology:</strong> DOTNET, C# and MS-SQL
+                    <strong>Technology:</strong> React JS, DOTNET, C#, MS-SQL, Python
                     <br />
                     <strong>Duration:</strong> June 2019 - Present
+                    <br/>
+                    <strong> Description </strong>
+                    <ul className="text-left">
+                      <li><strong>Developed &amp; enhanced</strong> multiple features with customizability option across web application.</li>
+                      <li><strong>Developed</strong> automation system to create SQL bulk query scripts that 
+                        increased efficiency by 80% and decreased working hours from 4 hours to 30 mins per task.
+                      </li>
+                      <li><strong>Provided</strong> application maintenance while working as `Production Support`. 
+                      </li>
+                      <li><strong>Performed</strong> CRUD operations on multiple databases to load/ remove data according 
+                      to the business requirements.</li>
+                      {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
+
+                    </ul>
+                    
+                    
                   </Card.Text>
                 </div>
               </Card.Body>
