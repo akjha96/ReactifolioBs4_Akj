@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5716cf3c501448b1da7348f344d803a9",
+    "revision": "333d8977ff644f4d8a63c034c6de39a0",
     "url": "/ReactifolioBs4_Akj/index.html"
   },
   {
-    "revision": "ecfeb1fe4e7771e880a6",
-    "url": "/ReactifolioBs4_Akj/static/css/main.3047df30.chunk.css"
+    "revision": "3089a3e75d2d9c7edeb8",
+    "url": "/ReactifolioBs4_Akj/static/css/main.72639266.chunk.css"
   },
   {
-    "revision": "a2b4bf9a7182f8fa93ec",
-    "url": "/ReactifolioBs4_Akj/static/js/2.b2adcd03.chunk.js"
+    "revision": "447759f9142504fb11ee",
+    "url": "/ReactifolioBs4_Akj/static/js/2.346b08e4.chunk.js"
   },
   {
     "revision": "176c1a1a28b19c611d9701905d8d60b7",
-    "url": "/ReactifolioBs4_Akj/static/js/2.b2adcd03.chunk.js.LICENSE.txt"
+    "url": "/ReactifolioBs4_Akj/static/js/2.346b08e4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ecfeb1fe4e7771e880a6",
-    "url": "/ReactifolioBs4_Akj/static/js/main.e83c4e7d.chunk.js"
+    "revision": "3089a3e75d2d9c7edeb8",
+    "url": "/ReactifolioBs4_Akj/static/js/main.79a89de7.chunk.js"
   },
   {
     "revision": "e1b81b1a85e4212fc570",
     "url": "/ReactifolioBs4_Akj/static/js/runtime-main.4e11bf4a.js"
+  },
+  {
+    "revision": "8897aeb643b17c37ab222bf70378423c",
+    "url": "/ReactifolioBs4_Akj/static/media/React_ToDo_List.8897aeb6.webp"
   },
   {
     "revision": "9730fefc26bb187c4f4bb29b95d82e7a",
@@ -68,10 +72,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactifolioBs4_Akj/static/media/flask.d98463ab.svg"
   },
   {
-    "revision": "3ce2d1b4fdaefb76b132075acdf49365",
-    "url": "/ReactifolioBs4_Akj/static/media/flux.3ce2d1b4.svg"
-  },
-  {
     "revision": "0692ddac9614e47c40a43276cd9287e4",
     "url": "/ReactifolioBs4_Akj/static/media/get_github_info.0692ddac.webp"
   },
@@ -112,6 +112,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactifolioBs4_Akj/static/media/material-ui-1.82291019.svg"
   },
   {
+    "revision": "3ea10fb644c05e7c947611dae8d58a45",
+    "url": "/ReactifolioBs4_Akj/static/media/mern_tip_calc.3ea10fb6.webp"
+  },
+  {
+    "revision": "2985235df31b8742d893d5b7e80145c5",
+    "url": "/ReactifolioBs4_Akj/static/media/mongodb.2985235d.svg"
+  },
+  {
     "revision": "54d7bddcd3019ec3c3b23db00160ccef",
     "url": "/ReactifolioBs4_Akj/static/media/mssql.54d7bddc.svg"
   },
@@ -138,10 +146,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "146716bdf1a351db5705ec1e6a25ed08",
     "url": "/ReactifolioBs4_Akj/static/media/python.146716bd.svg"
-  },
-  {
-    "revision": "2a5335d52070f6ad653a12df2a36fdd2",
-    "url": "/ReactifolioBs4_Akj/static/media/pythonanywhere.2a5335d5.svg"
   },
   {
     "revision": "83fe61b05935f090b671b08aeb77b63d",
@@ -174,6 +178,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8e5b87b60151049a8df9ec0bd30978f0",
     "url": "/ReactifolioBs4_Akj/static/media/slide3.8e5b87b6.webp"
+  },
+  {
+    "revision": "e79a42b9281a3b30f1302d5452f9884f",
+    "url": "/ReactifolioBs4_Akj/static/media/styled-components.e79a42b9.svg"
   },
   {
     "revision": "3de182d2120823fe49c27eeb1765c53a",
