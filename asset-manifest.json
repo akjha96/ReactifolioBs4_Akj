@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ReactifolioBs4_Akj/static/css/main.3047df30.chunk.css",
-    "main.js": "/ReactifolioBs4_Akj/static/js/main.c9254e4b.chunk.js",
-    "main.js.map": "/ReactifolioBs4_Akj/static/js/main.c9254e4b.chunk.js.map",
+    "main.js": "/ReactifolioBs4_Akj/static/js/main.e83c4e7d.chunk.js",
+    "main.js.map": "/ReactifolioBs4_Akj/static/js/main.e83c4e7d.chunk.js.map",
     "runtime-main.js": "/ReactifolioBs4_Akj/static/js/runtime-main.4e11bf4a.js",
     "runtime-main.js.map": "/ReactifolioBs4_Akj/static/js/runtime-main.4e11bf4a.js.map",
     "static/js/2.b2adcd03.chunk.js": "/ReactifolioBs4_Akj/static/js/2.b2adcd03.chunk.js",
     "static/js/2.b2adcd03.chunk.js.map": "/ReactifolioBs4_Akj/static/js/2.b2adcd03.chunk.js.map",
     "index.html": "/ReactifolioBs4_Akj/index.html",
-    "precache-manifest.6453eb69da6e1ff335c92dd512c9faef.js": "/ReactifolioBs4_Akj/precache-manifest.6453eb69da6e1ff335c92dd512c9faef.js",
+    "precache-manifest.093c5ba33b663db8af70c7d15dc7f569.js": "/ReactifolioBs4_Akj/precache-manifest.093c5ba33b663db8af70c7d15dc7f569.js",
     "service-worker.js": "/ReactifolioBs4_Akj/service-worker.js",
     "static/css/main.3047df30.chunk.css.map": "/ReactifolioBs4_Akj/static/css/main.3047df30.chunk.css.map",
     "static/js/2.b2adcd03.chunk.js.LICENSE.txt": "/ReactifolioBs4_Akj/static/js/2.b2adcd03.chunk.js.LICENSE.txt",
@@ -56,6 +56,6 @@
     "static/js/runtime-main.4e11bf4a.js",
     "static/js/2.b2adcd03.chunk.js",
     "static/css/main.3047df30.chunk.css",
-    "static/js/main.c9254e4b.chunk.js"
+    "static/js/main.e83c4e7d.chunk.js"
   ]
 }
