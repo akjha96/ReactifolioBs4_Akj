@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74757e64e5698997830e47c91708e09e",
+    "revision": "87b40e800d02b9d021e09674f6c0878f",
     "url": "/ReactifolioBs4_Akj/index.html"
   },
   {
-    "revision": "ec3343ff83c18e0bf18d",
+    "revision": "233dea54c4284ff65781",
     "url": "/ReactifolioBs4_Akj/static/css/main.72fb04cf.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactifolioBs4_Akj/static/js/2.320bcbe8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ec3343ff83c18e0bf18d",
-    "url": "/ReactifolioBs4_Akj/static/js/main.329fd374.chunk.js"
+    "revision": "233dea54c4284ff65781",
+    "url": "/ReactifolioBs4_Akj/static/js/main.85e082d4.chunk.js"
   },
   {
     "revision": "e1b81b1a85e4212fc570",
