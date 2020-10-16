@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3acc428e43c3788fa0311a5d24c72359",
+    "revision": "e262def3bbef662852db2fba4809b66b",
     "url": "/ReactifolioBs4_Akj/index.html"
   },
   {
-    "revision": "12af1593e57b7278520c",
+    "revision": "aa7a080f7919c2ef4c02",
     "url": "/ReactifolioBs4_Akj/static/css/main.72fb04cf.chunk.css"
   },
   {
-    "revision": "10d328580ed23866b532",
-    "url": "/ReactifolioBs4_Akj/static/js/2.8d4bf7bf.chunk.js"
+    "revision": "90561b5d62a8fdcf4ffd",
+    "url": "/ReactifolioBs4_Akj/static/js/2.9d8fc488.chunk.js"
   },
   {
     "revision": "176c1a1a28b19c611d9701905d8d60b7",
-    "url": "/ReactifolioBs4_Akj/static/js/2.8d4bf7bf.chunk.js.LICENSE.txt"
+    "url": "/ReactifolioBs4_Akj/static/js/2.9d8fc488.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "12af1593e57b7278520c",
-    "url": "/ReactifolioBs4_Akj/static/js/main.fdf5d40d.chunk.js"
+    "revision": "aa7a080f7919c2ef4c02",
+    "url": "/ReactifolioBs4_Akj/static/js/main.002a42ed.chunk.js"
   },
   {
     "revision": "e1b81b1a85e4212fc570",
