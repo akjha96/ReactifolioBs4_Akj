@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ReactifolioBs4_Akj/static/css/main.72fb04cf.chunk.css",
-    "main.js": "/ReactifolioBs4_Akj/static/js/main.85e082d4.chunk.js",
-    "main.js.map": "/ReactifolioBs4_Akj/static/js/main.85e082d4.chunk.js.map",
+    "main.css": "/ReactifolioBs4_Akj/static/css/main.03752b37.chunk.css",
+    "main.js": "/ReactifolioBs4_Akj/static/js/main.f8c731ab.chunk.js",
+    "main.js.map": "/ReactifolioBs4_Akj/static/js/main.f8c731ab.chunk.js.map",
     "runtime-main.js": "/ReactifolioBs4_Akj/static/js/runtime-main.4e11bf4a.js",
     "runtime-main.js.map": "/ReactifolioBs4_Akj/static/js/runtime-main.4e11bf4a.js.map",
     "static/js/2.320bcbe8.chunk.js": "/ReactifolioBs4_Akj/static/js/2.320bcbe8.chunk.js",
     "static/js/2.320bcbe8.chunk.js.map": "/ReactifolioBs4_Akj/static/js/2.320bcbe8.chunk.js.map",
     "index.html": "/ReactifolioBs4_Akj/index.html",
-    "precache-manifest.569c8793e48a597aa81d3c499ccbce82.js": "/ReactifolioBs4_Akj/precache-manifest.569c8793e48a597aa81d3c499ccbce82.js",
+    "precache-manifest.673abd81bb0c91af5042569961b75ece.js": "/ReactifolioBs4_Akj/precache-manifest.673abd81bb0c91af5042569961b75ece.js",
     "service-worker.js": "/ReactifolioBs4_Akj/service-worker.js",
-    "static/css/main.72fb04cf.chunk.css.map": "/ReactifolioBs4_Akj/static/css/main.72fb04cf.chunk.css.map",
+    "static/css/main.03752b37.chunk.css.map": "/ReactifolioBs4_Akj/static/css/main.03752b37.chunk.css.map",
     "static/js/2.320bcbe8.chunk.js.LICENSE.txt": "/ReactifolioBs4_Akj/static/js/2.320bcbe8.chunk.js.LICENSE.txt",
     "static/media/React_ToDo_List.webp": "/ReactifolioBs4_Akj/static/media/React_ToDo_List.8897aeb6.webp",
     "static/media/Robofriends.webp": "/ReactifolioBs4_Akj/static/media/Robofriends.9730fefc.webp",
@@ -43,7 +43,7 @@
     "static/media/product_hunt_clone.webp": "/ReactifolioBs4_Akj/static/media/product_hunt_clone.4bef4c3e.webp",
     "static/media/profile.webp": "/ReactifolioBs4_Akj/static/media/profile.210d83de.webp",
     "static/media/python.svg": "/ReactifolioBs4_Akj/static/media/python.146716bd.svg",
-    "static/media/react-bootstrap.svg": "/ReactifolioBs4_Akj/static/media/react-bootstrap.83fe61b0.svg",
+    "static/media/react-bootstrap.svg": "/ReactifolioBs4_Akj/static/media/react-bootstrap.ef194ddf.svg",
     "static/media/react-router.svg": "/ReactifolioBs4_Akj/static/media/react-router.02419671.svg",
     "static/media/react.svg": "/ReactifolioBs4_Akj/static/media/react.4009eef3.svg",
     "static/media/redux.svg": "/ReactifolioBs4_Akj/static/media/redux.aa0a3376.svg",
@@ -51,13 +51,13 @@
     "static/media/slide1.webp": "/ReactifolioBs4_Akj/static/media/slide1.8bce7aef.webp",
     "static/media/slide2.webp": "/ReactifolioBs4_Akj/static/media/slide2.7256f309.webp",
     "static/media/slide3.webp": "/ReactifolioBs4_Akj/static/media/slide3.8e5b87b6.webp",
-    "static/media/styled-components.svg": "/ReactifolioBs4_Akj/static/media/styled-components.e79a42b9.svg",
+    "static/media/styled-components.svg": "/ReactifolioBs4_Akj/static/media/styled-components.9ceedb83.svg",
     "static/media/typescript.svg": "/ReactifolioBs4_Akj/static/media/typescript.3de182d2.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4e11bf4a.js",
     "static/js/2.320bcbe8.chunk.js",
-    "static/css/main.72fb04cf.chunk.css",
-    "static/js/main.85e082d4.chunk.js"
+    "static/css/main.03752b37.chunk.css",
+    "static/js/main.f8c731ab.chunk.js"
   ]
 }
