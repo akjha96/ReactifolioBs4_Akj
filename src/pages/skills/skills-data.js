@@ -10,8 +10,6 @@ import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_DJANGO from "../../assets/img/skills/django.svg";
-import L_FLASK from "../../assets/img/skills/flask.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 import L_MSSQL from "../../assets/img/skills/mssql.svg";
@@ -23,6 +21,8 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import L_GOLANG from "../../assets/img/skills/go-6.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_NESTJS from "../../assets/img/skills/nestjs.svg";
+import L_FIREBASE from "../../assets/img/skills/firebase.svg";
 
 export const skills = {
   frontend: [
@@ -92,7 +92,6 @@ export const skills = {
       imgSrc: L_STYLED_COMPONENTS,
       skillName: "styled-components",
     },
-    
   ],
 
   backend: [
@@ -109,16 +108,10 @@ export const skills = {
       skillName: "Express",
     },
     {
-      link: "https://www.djangoproject.com/",
-      imgAltText: "Django",
-      imgSrc: L_DJANGO,
-      skillName: "Django",
-    },
-    {
-      link: "https://flask.palletsprojects.com/",
-      imgAltText: "Flask",
-      imgSrc: L_FLASK,
-      skillName: "Flask",
+      link: "https://nestjs.com/",
+      imgAltText: "NestJS",
+      imgSrc: L_NESTJS,
+      skillName: "NestJS",
     },
   ],
   hostingPlatforms: [
@@ -174,17 +167,24 @@ export const skills = {
       imgSrc: L_POSTGRESQL,
       skillName: "PostgreSQL",
     },
-    {
-      link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-      imgAltText: "MS-SQL",
-      imgSrc: L_MSSQL,
-      skillName: "MS-SQL",
-    },
+
     {
       link: "https://www.mongodb.com/",
       imgAltText: "MongoDB",
       imgSrc: L_MONGODB,
       skillName: "MongoDB",
+    },
+    {
+      link: "https://firebase.google.com/",
+      imgAltText: "Firebase",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase",
+    },
+    {
+      link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
+      imgAltText: "MS-SQL",
+      imgSrc: L_MSSQL,
+      skillName: "MS-SQL",
     },
   ],
   versionControl: [
