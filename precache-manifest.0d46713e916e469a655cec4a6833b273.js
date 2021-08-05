@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ceb614efc772d7dd39330defa33b7c5",
+    "revision": "173b7225c14c9b0c4c9e8accbb01740e",
     "url": "/ReactifolioBs4_Akj/index.html"
   },
   {
-    "revision": "ff12dd0de80b7f8b585b",
+    "revision": "4498c2152bd9f1a83ecc",
     "url": "/ReactifolioBs4_Akj/static/css/main.38be6267.chunk.css"
   },
   {
-    "revision": "0b8da031bc46d27c7e97",
-    "url": "/ReactifolioBs4_Akj/static/js/2.320bcbe8.chunk.js"
+    "revision": "a44544658dfb61dec534",
+    "url": "/ReactifolioBs4_Akj/static/js/2.4621f538.chunk.js"
   },
   {
     "revision": "176c1a1a28b19c611d9701905d8d60b7",
-    "url": "/ReactifolioBs4_Akj/static/js/2.320bcbe8.chunk.js.LICENSE.txt"
+    "url": "/ReactifolioBs4_Akj/static/js/2.4621f538.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ff12dd0de80b7f8b585b",
-    "url": "/ReactifolioBs4_Akj/static/js/main.9fe09d53.chunk.js"
+    "revision": "4498c2152bd9f1a83ecc",
+    "url": "/ReactifolioBs4_Akj/static/js/main.871c2c2e.chunk.js"
   },
   {
     "revision": "e1b81b1a85e4212fc570",
@@ -56,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactifolioBs4_Akj/static/media/css3.3707da3c.svg"
   },
   {
+    "revision": "f4f7be3553bd0a5e925ef3b9305bbcc8",
+    "url": "/ReactifolioBs4_Akj/static/media/deloitte.f4f7be35.svg"
+  },
+  {
     "revision": "add239172d50d6ad18d2ac3cea6257a1",
     "url": "/ReactifolioBs4_Akj/static/media/digital-ocean.add23917.svg"
   },
@@ -68,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactifolioBs4_Akj/static/media/express.c6bab64b.svg"
   },
   {
-    "revision": "d98463abd102acdc2b1eb8d5eb70b2d2",
-    "url": "/ReactifolioBs4_Akj/static/media/flask.d98463ab.svg"
+    "revision": "7f8d489c1887554fcf61932505d46393",
+    "url": "/ReactifolioBs4_Akj/static/media/firebase.7f8d489c.svg"
   },
   {
     "revision": "0692ddac9614e47c40a43276cd9287e4",
@@ -122,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "54d7bddcd3019ec3c3b23db00160ccef",
     "url": "/ReactifolioBs4_Akj/static/media/mssql.54d7bddc.svg"
+  },
+  {
+    "revision": "4da5bb9fd970e3fedeeb87902dfa4c54",
+    "url": "/ReactifolioBs4_Akj/static/media/nestjs.4da5bb9f.svg"
   },
   {
     "revision": "a123152868245dee71c441124a98ac3e",
