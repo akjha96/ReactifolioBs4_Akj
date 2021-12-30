@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "173b7225c14c9b0c4c9e8accbb01740e",
+    "revision": "8a802ede3b11a6d0ac9ce84588f977a3",
     "url": "/ReactifolioBs4_Akj/index.html"
   },
   {
-    "revision": "4498c2152bd9f1a83ecc",
-    "url": "/ReactifolioBs4_Akj/static/css/main.38be6267.chunk.css"
+    "revision": "7a17219be941d35fc832",
+    "url": "/ReactifolioBs4_Akj/static/css/main.10e170f1.chunk.css"
   },
   {
-    "revision": "a44544658dfb61dec534",
-    "url": "/ReactifolioBs4_Akj/static/js/2.4621f538.chunk.js"
+    "revision": "b581b170947095ab6c29",
+    "url": "/ReactifolioBs4_Akj/static/js/2.fff2c242.chunk.js"
   },
   {
-    "revision": "176c1a1a28b19c611d9701905d8d60b7",
-    "url": "/ReactifolioBs4_Akj/static/js/2.4621f538.chunk.js.LICENSE.txt"
+    "revision": "c87e50d81cc7b5311525cc6fd5482ea5",
+    "url": "/ReactifolioBs4_Akj/static/js/2.fff2c242.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4498c2152bd9f1a83ecc",
-    "url": "/ReactifolioBs4_Akj/static/js/main.871c2c2e.chunk.js"
+    "revision": "7a17219be941d35fc832",
+    "url": "/ReactifolioBs4_Akj/static/js/main.1dfa6cee.chunk.js"
   },
   {
     "revision": "e1b81b1a85e4212fc570",
@@ -156,8 +156,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactifolioBs4_Akj/static/media/python.146716bd.svg"
   },
   {
-    "revision": "ef194ddf5faf63cb6cc580a4535be695",
-    "url": "/ReactifolioBs4_Akj/static/media/react-bootstrap.ef194ddf.svg"
+    "revision": "83fe61b05935f090b671b08aeb77b63d",
+    "url": "/ReactifolioBs4_Akj/static/media/react-bootstrap.83fe61b0.svg"
   },
   {
     "revision": "024196716802e272adb3cbefb81fd557",
@@ -188,8 +188,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactifolioBs4_Akj/static/media/slide3.8e5b87b6.webp"
   },
   {
-    "revision": "9ceedb838144da63d409d778f4245a82",
-    "url": "/ReactifolioBs4_Akj/static/media/styled-components.9ceedb83.svg"
+    "revision": "e79a42b9281a3b30f1302d5452f9884f",
+    "url": "/ReactifolioBs4_Akj/static/media/styled-components.e79a42b9.svg"
   },
   {
     "revision": "3de182d2120823fe49c27eeb1765c53a",
