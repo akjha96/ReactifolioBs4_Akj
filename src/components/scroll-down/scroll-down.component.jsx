@@ -18,29 +18,29 @@ const MyScroll = styled.div`
   .turn {
     cursor: pointer;
     transform: rotate(90deg);
-    color:black
-    
-
+    color: black;
   }
   @keyframes MoveUpDown {
-       0%, 100% {
-         bottom: 100;
-       }
-       50% {
-         bottom:  50px;
-       }
-     }
+    0%,
+    100% {
+      bottom: 85px;
+    }
+    50% {
+      bottom: 70px;
+    }
+  }
 `;
 
-const handleScrollDown = () =>{
-
-}
+const handleScrollDown = () => {};
 
 const ScrollDown = () => {
   return (
     <MyScroll>
-      <div  onClick={handleScrollDown}>
-      <Nav.Link href="#about" className="turn" > &gt;&gt;&gt; </Nav.Link>
+      <div onClick={handleScrollDown}>
+        <Nav.Link href="#about" className="turn">
+          {" "}
+          &gt;&gt;&gt;{" "}
+        </Nav.Link>
       </div>
     </MyScroll>
   );

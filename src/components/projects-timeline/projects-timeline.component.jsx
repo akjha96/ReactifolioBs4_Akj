@@ -28,7 +28,6 @@ import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 
-
 import "./projects-timeline.styles.css";
 
 const TimeLine = () => {
@@ -37,8 +36,8 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
-        {/* Project: Todo List With MUI */}
-        <ImageEvent
+          {/* Project: Todo List With MUI */}
+          <ImageEvent
             date="01/10/2020"
             className="text-center"
             text="React ToDo App"
@@ -59,7 +58,9 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a Todo App created with React and Material UI that keeps a track of your Todos
+                        <strong>Description:</strong> This is a Todo App created
+                        with React and Material UI that keeps a track of your
+                        Todos
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -114,7 +115,6 @@ const TimeLine = () => {
                               Material-UI
                             </span>
                           </li>
-                          
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -134,19 +134,18 @@ const TimeLine = () => {
                 >
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton
+                {/* <UrlButton
                   href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-materialui-fun-activity-6716765686963826688-GIpZ"
                   target="_blank"
                 >
                   WATCH VIDEO
-                </UrlButton>
+                </UrlButton> */}
               </div>
             </div>
           </ImageEvent>
 
-
-{/* Project: MERN Tip Calculator */}
-<ImageEvent
+          {/* Project: MERN Tip Calculator */}
+          <ImageEvent
             date="16/09/2020"
             className="text-center"
             text="MERN Tip Calculator"
@@ -167,14 +166,15 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This app calculates Tip for the amount entered and percentage of tip to be given.
-                        It uses MERN stack build to acomplish the same.
+                        <strong>Description:</strong> This app calculates Tip
+                        for the amount entered and percentage of tip to be
+                        given. It uses MERN stack build to acomplish the same.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
                           <li>Enter amount upto your desire</li>
                           <li>Real-time API calls with Backend features</li>
-                          <li>Styled with  Material-UI</li>
+                          <li>Styled with Material-UI</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -354,12 +354,12 @@ const TimeLine = () => {
                 >
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton
+                {/* <UrlButton
                   href="https://www.youtube.com/watch?v=K3h95l2YxmY&feature=youtu.be"
                   target="_blank"
                 >
                   WATCH VIDEO
-                </UrlButton>
+                </UrlButton> */}
               </div>
             </div>
           </ImageEvent>
@@ -476,12 +476,12 @@ const TimeLine = () => {
                 >
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton
+                {/* <UrlButton
                   href="https://www.youtube.com/watch?v=ZZYSpi_blL0"
                   target="_blank"
                 >
                   WATCH VIDEO
-                </UrlButton>
+                </UrlButton> */}
               </div>
             </div>
           </ImageEvent>
@@ -816,14 +816,11 @@ const TimeLine = () => {
                         </ul>
                         <hr />
                         <em>
-                          <strong>View Demo Video:</strong>
+                          <strong>View web site:</strong>
                           <br />
                           <br />
                           If you are reading this, that means I have updated my
                           Portfolio website to recent one.
-                          <br />
-                          You can still see a video of my old portfolio by
-                          clicking on the button below.
                           <br />
                           <br />
                         </em>
@@ -832,11 +829,7 @@ const TimeLine = () => {
                   </Card>
                 </Accordion>
               </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://youtu.be/PCwEuW4OmWA" target="_blank">
-                  WATCH VIDEO
-                </UrlButton>
-              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center"></div>
             </div>
           </ImageEvent>
         </Events>
