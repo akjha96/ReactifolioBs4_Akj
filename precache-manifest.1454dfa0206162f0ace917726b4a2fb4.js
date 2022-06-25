@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6c3ec9887acb40e05c9369274f89ca4",
+    "revision": "3cbe905b46fe7d9e945b05f1df3efdb3",
     "url": "/ReactifolioBs4_Akj/index.html"
   },
   {
-    "revision": "fa14a4b3c849cce00b7e",
-    "url": "/ReactifolioBs4_Akj/static/css/main.10e170f1.chunk.css"
+    "revision": "3067fe79f4428e2da525",
+    "url": "/ReactifolioBs4_Akj/static/css/main.3bdd3d2e.chunk.css"
   },
   {
-    "revision": "630d4d50eb6445c5fc51",
-    "url": "/ReactifolioBs4_Akj/static/js/2.ffb937b0.chunk.js"
+    "revision": "36c5a39f370a4bee5bff",
+    "url": "/ReactifolioBs4_Akj/static/js/2.9e8f9e73.chunk.js"
   },
   {
-    "revision": "46f8075d5664842115535f8d03e09ffc",
-    "url": "/ReactifolioBs4_Akj/static/js/2.ffb937b0.chunk.js.LICENSE.txt"
+    "revision": "176c1a1a28b19c611d9701905d8d60b7",
+    "url": "/ReactifolioBs4_Akj/static/js/2.9e8f9e73.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fa14a4b3c849cce00b7e",
-    "url": "/ReactifolioBs4_Akj/static/js/main.105b7175.chunk.js"
+    "revision": "3067fe79f4428e2da525",
+    "url": "/ReactifolioBs4_Akj/static/js/main.e0fa9a3e.chunk.js"
   },
   {
     "revision": "e1b81b1a85e4212fc570",
@@ -56,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactifolioBs4_Akj/static/media/css3.3707da3c.svg"
   },
   {
+    "revision": "63a1fa89591745e789e439a1f2d1abf1",
+    "url": "/ReactifolioBs4_Akj/static/media/dart.63a1fa89.svg"
+  },
+  {
     "revision": "f4f7be3553bd0a5e925ef3b9305bbcc8",
     "url": "/ReactifolioBs4_Akj/static/media/deloitte.f4f7be35.svg"
   },
@@ -74,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7f8d489c1887554fcf61932505d46393",
     "url": "/ReactifolioBs4_Akj/static/media/firebase.7f8d489c.svg"
+  },
+  {
+    "revision": "faf8f499559f6b2f815f454a5794eae3",
+    "url": "/ReactifolioBs4_Akj/static/media/flutter.faf8f499.svg"
   },
   {
     "revision": "0692ddac9614e47c40a43276cd9287e4",
@@ -146,10 +154,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "210d83de03dbbcf3c1a8689dbbb2b5b1",
     "url": "/ReactifolioBs4_Akj/static/media/profile.210d83de.webp"
-  },
-  {
-    "revision": "146716bdf1a351db5705ec1e6a25ed08",
-    "url": "/ReactifolioBs4_Akj/static/media/python.146716bd.svg"
   },
   {
     "revision": "83fe61b05935f090b671b08aeb77b63d",
